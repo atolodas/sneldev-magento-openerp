@@ -2,12 +2,21 @@
 
 = Introduction =
 
-Add your content here.
+This page describes the installation of the Magento-OpenERP interface
 
 
-= Details =
+= Magento =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+If you do not have Magento installed yet, please follow the instruction from Magento web site to install it :
+http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide
+
+Our interface has been tested with Magento 1.3 and 1.4 versions.
+
+
+= OpenERP =
+
+You will also need a working OpenERP server (preferably running under Linux) and at least one client (any OS is fine). 
+Follow the following link for instruction to install OpenERP server and client :
+http://doc.openerp.com/install/index.html
+
+= Magento 
