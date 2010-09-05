@@ -28,9 +28,11 @@ TODO
 === Via Google Code ===
 
 # Download the Magento extension in the download section of this project.
-# Extract it in your 
+# Extract it in your Magento root folder. Make sure to keep the directory structure from the compressed file.
 
 == 2. Magento extension configuration ==
+
+
 
 = 2. OpenERP =
 
