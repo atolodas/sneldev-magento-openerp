@@ -27,10 +27,10 @@ TODO
 
 === Via Google Code ===
 
-  # Download the Magento extension in the download section of this project.
+  # Download the latest version of the Magento extension in the download section of this project.
   # Extract it in your Magento root folder. Make sure to keep the directory structure from the compressed file.
 
-== 2. Magento extension configuration ==
+== 2. Magento Extension configuration ==
 
 === Refresh the extension cache ===
 
@@ -58,13 +58,13 @@ Follow the following link for instruction to install OpenERP server and client :
 http://doc.openerp.com/install/index.html
 
 
-= 4. OpenERP Module =
+== 1. OpenERP Module ==
 
   # Download the latest version of the module on the download page.
-  # Extract the _sneldev_magento_ directory in the _openerp-server-5.0.6/bin/addons/_ directory of your OpenERP installation.
+  # 
 
 
-= 5. Create an OpenERP database =
+= 2. Create an OpenERP database =
 
 
 
