@@ -32,7 +32,23 @@ TODO
 
 == 2. Magento extension configuration ==
 
-=== 
+=== Refresh the extension cache ===
+
+  # In the Admin Panel, go to System / Cache Management.
+  # Select _Configuration_ and _Web Services Configuration_. 
+  # In the Actions menu select _Refresh_, then click on _Submit_ button
+
+=== Create a Web Services User ===
+
+  # In the Admin Panel, go to System / Web Services / Roles.
+  # Add a new role, any name is fine.
+  # In the _Roles Resource_ tab, select _All_ in the Resource Access menu.
+  # Save Role.
+
+  # In the Admin Panel, go to System / Web Services / Users.
+  # Add a new user, make sure the user is active.
+  # In _User Role_ tab, select the role you created earlier.
+  # Save User.
 
 = 2. OpenERP =
 
