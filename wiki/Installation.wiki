@@ -19,7 +19,7 @@ http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide
 
 == 1. Magento extension installation ==
 
-There are two options to install the Magento extension. You need to follow one of them.
+There are two options to install the Magento extension. You need to follow only one of them :
 
 === Via Magento Connect ===
 
@@ -32,7 +32,7 @@ TODO
 
 == 2. Magento extension configuration ==
 
-
+=== 
 
 = 2. OpenERP =
 
