@@ -3,4 +3,4 @@
 = 1. Installation =
 
 Before starting this tutorial, please make sure you have installed the Magento module and the OpenERP extension.
-See our Installation page for help.
+See our [Installation] page for help.
