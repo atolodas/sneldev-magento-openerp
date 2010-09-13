@@ -17,7 +17,7 @@ If you do not have Magento installed yet, please follow the instruction from Mag
 http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide
 
 
-== 1. Magento extension installation ==
+== 1.1. Magento extension installation ==
 
 There are two options to install the Magento extension. You need to follow only one of them :
 
@@ -30,7 +30,7 @@ TODO
   # Download the latest version of the Magento extension in the download section of this project.
   # Extract it in your Magento root folder. Make sure to keep the directory structure from the compressed file.
 
-== 2. Magento Extension configuration ==
+== 1.2. Magento Extension configuration ==
 
 === Refresh the extension cache ===
 
@@ -58,15 +58,17 @@ Follow the following link for instruction to install OpenERP server and client :
 http://doc.openerp.com/install/index.html
 
 
-== 1. OpenERP Module ==
+== 2.1. OpenERP Module ==
 
-  # Download the latest version of the module on the download page.
-  # 
+  # If you do not have a OpenERP database yet, create one.
+  # Download the latest version of the OpenERP module on our download page.
+  # Connect to you database and go to Administration / Modules Managments / Import module
+  # Select the downloaded _.zip_ file and import.
+  # Select the _sneldev_magento_ module.
+  # Click on _Schedule for Installation_ then _Apply Scheduled Upgrades_
+  # Follow the installation wizard.
 
-
-= 2. Create an OpenERP database =
-
-
+If the module is installed correctly, you should see a new _Magento_ tab in the OpenERP menu.
 
 
 == Need help ? == 
