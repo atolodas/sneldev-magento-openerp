@@ -1,7 +1,23 @@
-#summary How to use this interface and how our approach can be different from others similar projects.
+#summary How to use this connector and how our approach can be different from others similar projects.
 
 = Introduction =
 
-The goal of this connector is to allow you to use the best of both tools. We are not intending to replace one of them by the other. 
+The goal of this connector is to allow you to use the best of both tools without having to manually transfer data from one to the other. We are not intending to have one single interface to control both tools. So when using this connector, you will still need to use both interfaces. Our goal is not to control all Magento features from OpenERP or vice versa.
+
+The following points will describe how to be efficient with this connector. For each task we explain what we think is the best way to achieve it. You may of course use it the way you want, but at least you know what we had in mind when we designed it.
+
+
+= 1. Creating product categories =
+
+Categories can be created in Magento or OpenERP. You can import the categories you have configured in Magento into OpenERP or you can export the categories you have configured in OpenERP to Magento.
+
+In Magento, it is not mandatory for a product to be assigned to a category while it OpenERP it is. This is why, when configuring your Magento Store in OpenERP, you need to specify a default category. This category will be used for products that have no categories in Magento.
+
+When importing or exporting products, categories are also imported or exported.
+
+
+= 2. Creating products = 
+
+
 
 TODO
