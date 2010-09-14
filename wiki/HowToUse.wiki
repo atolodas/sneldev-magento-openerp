@@ -1,13 +1,7 @@
-#summary How to use this interface and how our approach can be different from others similar connectors.
+#summary How to use this interface and how our approach can be different from others similar projects.
 
 = Introduction =
 
-Add your content here.
+The goal of this connector is to allow you to use the best of both tools. We are not intending to replace one of them by the other. 
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+TODO
