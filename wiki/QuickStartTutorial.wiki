@@ -15,7 +15,7 @@ See our [Installation] page for help.
   # Choose a name.
   # Enter the Base URL where your Magento store is installed (the URL to reach the main page). 
   # Enter the _API User_ and _API Key_ you configured during the Magento module installation (see [Installation]).
-  # Select you _default category_ and default _shipping product_.
+  # Select your _default category_ and default _shipping product_.
   # `[`Optional`]` If you want to use accounting in OpenERP, you may want to choose a _Payment Journal_. 
   # You may leave _Automatic Synchronization Settings_ to default values for now.
 
