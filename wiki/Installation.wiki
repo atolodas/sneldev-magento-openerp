@@ -79,8 +79,11 @@ If the module is installed correctly, you should see a new _Magento_ tab in the 
   # Extract the file anywhere on the machine running the OpenERP server.
   # Make sure the OpenERP server has read access to the file.
 
+= 3. Start using the connector =
 
-== Need help ? == 
+See our [QuickStartTutorial] page for help.
+
+= Need help ? = 
 
 You need professional help with the installation or you are interested with our pre-installed solutions ? 
 
