@@ -73,7 +73,7 @@ http://doc.openerp.com/install/index.html
 
 If the module is installed correctly, you should see a new _Magento_ tab in the OpenERP menu.
 
-== 2.2. Automatic Synchronization script ==
+== 2.2. Automatic Synchronization script _(Optional)_ ==
 
   # Download the latest version of the script on our download page.
   # Extract the file anywhere on the machine running the OpenERP server.
