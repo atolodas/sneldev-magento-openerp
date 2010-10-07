@@ -15,46 +15,48 @@ The PDF version of the Installation Guide can be found here :
 
 = 1. Magento =
 
-If you do not have Magento installed yet, please follow the instruction from Magento web site to install it :
+If you do not have Magento installed yet, please follow the instruction from Magento web site to install it:
 
 http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide
 
 
 == 1.1. Magento extension installation ==
 
-There are two options to install the Magento extension. You need to follow only one of them :
+There are two options to install the Magento extension. You need to follow only one of them:
 
 === Via Magento Connect ===
 
-  # Go to [http://www.magentocommerce.com/magento-connect/SnelDev/extension/4484/sneldev_openerp_connector Magento Connect] and get the extension key for our extension.
+  # Go to Magento Connect and get the extension key for our extension.
   # In the Admin Panel of Magento, go to System / Magento Connect / Magento Connect Manager
-  # Copy the extension key and click on _Install_
+  # Copy the extension key and click on Install 
+
 
 === Via Google Code ===
-
 
   # Download the latest version of the Magento extension in the download section of this project.
   # Extract it in your Magento root folder. Make sure to keep the directory structure from the compressed file.
 
+
 == 1.2. Magento Extension configuration ==
 
-=== Refresh the extension cache ===
+=== 1.2.1 Refresh the extension cache ===
 
   # In the Admin Panel, go to System / Cache Management.
-  # Select _Configuration_ and _Web Services Configuration_. 
-  # In the Actions menu select _Refresh_, then click on _Submit_ button
+  # Select Configuration and Web Services Configuration.
+  # In the Actions menu select Refresh, and then click on Submit button.
 
-=== Create a Web Services User ===
+
+=== 1.2.2 Create a Web Services User ===
 
   # In the Admin Panel, go to System / Web Services / Roles.
   # Add a new role, any name is fine.
-  # In the _Roles Resource_ tab, select _All_ in the Resource Access menu.
-  # Save Role.
-
+  # Under Roles Resource tab, select All for Resource Access menu.
+  # Save Role. 
   # In the Admin Panel, go to System / Web Services / Users.
-  # Add a new user, make sure the user is active.
-  # In _User Role_ tab, select the role you created earlier.
+  # Add a new user; make sure the user is active. Please remember the User Name and API Key, you will need them to configure OpenERP.
+  # In User Role tab, select the role you created earlier.
   # Save User.
+
 
 = 2. OpenERP =
 
@@ -69,18 +71,22 @@ http://doc.openerp.com/install/index.html
   # If you do not have a OpenERP database yet, create one.
   # Download the latest version of the OpenERP module on our download page.
   # Connect to you database and go to Administration / Modules Managments / Import module
-  # Select the downloaded _.zip_ file and import.
-  # Select the _sneldev_magento_ module.
-  # Click on _Schedule for Installation_ then _Apply Scheduled Upgrades_
-  # Follow the installation wizard.
+  # Select the downloaded .zip file and import.
+  # Select the sneldev_magento module.
+  # Click on Schedule for Installation then Apply Scheduled Upgrades 
 
-If the module is installed correctly, you should see a new _Magento_ tab in the OpenERP menu.
+If the module is installed correctly, you should see a new Magento tab in the OpenERP menu.
+
 
 == 2.2. Automatic Synchronization script _(optional)_ ==
+
+This step is only needed if you need the automatic synchronization. You can come back to this step later. 
 
   # Download the latest version of the script on our download page.
   # Extract the file anywhere on the machine running the OpenERP server.
   # Make sure the OpenERP server has read access to the file.
+  # Open the file in your text editor and configure the settings of your OpenERP server and database.
+
 
 = 3. Start using the connector =
 
