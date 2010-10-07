@@ -10,6 +10,9 @@ _Our interface was tested with the following versions :
   * OpenERP Client 5.0 running on any OS.
 
 
+The PDF version of the Installation Guide can be found here :
+[http://code.google.com/p/sneldev-magento-openerp/downloads/detail?name=Installation%20Guide.pdf&can=2&q= Installation Guide with screenshots]
+
 = 1. Magento =
 
 If you do not have Magento installed yet, please follow the instruction from Magento web site to install it :
