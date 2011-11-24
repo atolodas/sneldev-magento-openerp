@@ -1,3 +1,5 @@
+#summary Describes how to enable logs on the OpenERP server
+
 = How to enable logs on your OpenERP server =
 
 When you have problems with the connectors, first step would be to enable logs to have more details on what is happening :
